@@ -4,23 +4,63 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "origins",
+            "title":"Origins"
+        },
+        {
+            "id": "destinations",
+            "title":"Destinations"
+        },
+        {
+            "id": "avoid",
+            "title":"Avoid"
+        },
+        {
+            "id": "language",
+            "title":"Language"
+        },
+        {
+            "id": "units",
+            "title":"Units"
+        },
+        {
+            "id": "traffic_model",
+            "title":"Traffic Model"
+        },
+        {
+            "id": "transit_mode",
+            "title":"Transit Mode"
+        },
+        {
+            "id": "transit_routing_preference",
+            "title":"Routing Preference"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "status",
+            "title":"S
+            tatus"
+        },
+        {
+            "id": "duration",
+            "title":"Duration"
+        },
+        {
+            "id": "duration",
+            "title":"Duration"
+        },
+        {
+            "id": "duration_in_traffic",
+            "title":"Duration in Traffic"
+        },
+        {
+            "id": "fare",
+            "title":"Fare"
         }
-      */
     ],
+    "icon": "dex-gmaps",
     "title": "Google Maps Get Distance" /* Required.A display name for the module */
 }
