@@ -41,8 +41,7 @@
     "outputs": [
         {
             "id": "status",
-            "title":"S
-            tatus"
+            "title":"Status"
         },
         {
             "id": "duration",
