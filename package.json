@@ -1,14 +1,18 @@
 {
-  "name": "google-maps-get-distance",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "author": "Alexander",
-  "license": "ISC",
-  "private": true,
-  "dependencies": {
-    "googlemaps": "^1.0.2",
-    "lodash": "^3.10.1",
-    "request": "^2.67.0"
-  }
+   "name": "google-maps-get-distance",
+   "version": "0.0.1",
+   "description": "Get distance between locations",
+   "main": "index.js",
+   "author": "Run Dexter, Inc",
+   "license": "MIT",
+   "private": true,
+   "dependencies": {
+      "googlemaps": "^1.0.2",
+      "lodash": "^3.10.1",
+      "request": "^2.67.0"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/rundexter/googlemaps-get-distance"
+   }
 }
